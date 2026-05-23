@@ -108,6 +108,36 @@ CROSS JOIN marks;
 
 ---
 
+## FULL OUTER JOIN
+
+Returns combination of left join and right join.
+
+```sql
+SELECT students.name,
+       marks.subject,
+       marks.score
+FROM students
+FULL OUTER JOIN marks
+ON students.student_id = marks.student_id;
+```
+
+---
+
+## SELF JOIN
+
+It is a join where a table is joined with itself to compare rows within the same table..
+
+```sql
+SELECT s1.name AS student_1,
+       s2.name AS student_2,
+       s1.department
+FROM students s1
+INNER JOIN students s2
+ON s1.department = s2.department
+AND s1.student_id <> s2.student_id;
+```
+
+
 # 2. AGGREGATIONS
 
 Aggregation functions summarize multiple rows into one result.

@@ -1,4 +1,4 @@
-# JavaScript Interview Questions & Answers
+# JavaScript AMA Questions & Answers
 
 ## 1. Why should we not use `var` in JavaScript?
 

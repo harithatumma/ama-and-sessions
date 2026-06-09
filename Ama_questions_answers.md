@@ -1,4 +1,4 @@
-# Technical Paper: SQL, PostgreSQL, and Python Interview Questions & Answers
+# Technical Paper: AMA Questions & Answers
 
 ---
 

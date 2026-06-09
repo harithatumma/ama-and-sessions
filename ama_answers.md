@@ -1,4 +1,4 @@
-# HTML & CSS Interview Questions and Answers
+# AMA Questions and Answers
 
 ## What is span in CSS Grid?
 
